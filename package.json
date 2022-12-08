@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vitorgabrieldev/appJokenko/issues"
   },
-  "homepage": "https://github.com/vitorgabrieldev/appJokenko#readme"
+  "homepage": "https://github.com/vitorgabrieldev/appJokenko#readme",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
 }

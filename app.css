@@ -1,0 +1,63 @@
+
+:root {
+    /* colors */
+    --color-background: rgb(36, 32, 32);
+    --color-container: rgb(17, 17, 16);
+    --color-font: #fefefe;
+}
+
+
+
+body, hmtl {
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* Align */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    /* Style */
+    background: var(--color-background);
+}
+
+* {
+    /* style */
+    font-family: monospace;
+    font-size: 125%;
+    color: var(--color-font);
+}
+
+
+/* Container Main */
+.container {
+    /* Align */
+    position: absolute;
+
+    /* Style */
+    background: var(--color-container);
+    border-radius: 24px;
+    box-shadow: 12px 12px 20px #000;
+
+    /* Size */
+    width: 95%;
+    height: 95%;
+}
+
+.container > .containerDisplay {
+
+    /* Style */
+    background: rgb(43, 43, 43);
+    border-radius: 24px;
+    
+    /* Size */
+    width: 100%;
+    height: 40%;
+
+    /* Align */
+    display: flex;
+    justify-content: space-between;
+}

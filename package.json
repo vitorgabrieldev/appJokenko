@@ -1,0 +1,19 @@
+{
+  "name": "appjokenpo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorgabrieldev/appJokenko.git"
+  },
+  "author": "Vitor Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorgabrieldev/appJokenko/issues"
+  },
+  "homepage": "https://github.com/vitorgabrieldev/appJokenko#readme"
+}

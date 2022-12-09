@@ -13,17 +13,25 @@
 </head>
 <body>
     <section class="container">
-        <div class="displayOpponent containerDisplay">
+        <!-- <div class="displayOpponent containerDisplay">
             <div class="containerPoints">
                 <h1 id="pointsOpponent">00</h1>
             </div>
             <div class="containerChoice"></div>
-        </div>
+        </div> -->
         <div class="display containerDisplay">
             <div class="points">
                 <h1 id="points">00</h1>
             </div>
-            <div class="containerChoice"></div>
+            <div class="roundsInfo">
+                <h1 id="gameYou">Esperando...</h1>
+                <h1 id="gameAI">Esperando...</h1>
+            </div>
+            <div class="containerChoice">
+                <button onclick="gameFunction.select(1)" type="button" class="btnRound" id="pedra">Pedra</button>
+                <button onclick="gameFunction.select(2)" type="button" class="btnRound" id="papel">Papel</button>
+                <button onclick="gameFunction.select(3)" type="button" class="btnRound" id="tesoura">Tesoura</button>
+            </div>
         </div>
     </section>
 

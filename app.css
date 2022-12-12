@@ -66,3 +66,24 @@ button:hover {
 #gameYou {
     font-size: 1.9rem;
 }
+
+.empateTitle {
+    font-size: 1.4rem;
+    color: rgb(77, 255, 77);
+    cursor: pointer;
+
+    opacity: 0;
+}
+
+.empateTitle::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: rgb(143, 216, 8);
+    transition: .3s;
+}
+
+.empateTitle:hover::before {
+    width: 5.5rem;
+}
